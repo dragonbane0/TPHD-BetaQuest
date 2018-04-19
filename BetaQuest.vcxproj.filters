@@ -1,0 +1,287 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Quelldateien">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Headerdateien">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Ressourcendateien">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Quelldateien\common">
+      <UniqueIdentifier>{458aafc5-6d78-4551-b05d-7c38b9ed6c67}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Quelldateien\dynamic_libs">
+      <UniqueIdentifier>{c7a9bd03-8efe-4b46-907f-2a71474dbc61}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Quelldateien\fs">
+      <UniqueIdentifier>{f3e6b830-6864-4ca3-ace9-ee66c762fca8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Quelldateien\Kernel">
+      <UniqueIdentifier>{89def563-b868-4613-b1d2-241e73403715}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Quelldateien\Patcher">
+      <UniqueIdentifier>{ecc849b8-bc81-46c2-aede-8fd75312e5eb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Quelldateien\System">
+      <UniqueIdentifier>{141348d8-0191-4791-83f0-a2cb38b6976b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Quelldateien\Utils">
+      <UniqueIdentifier>{cc0ebb3e-b681-4c2f-80ae-4979c1492a49}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Quelldateien\Game">
+      <UniqueIdentifier>{65f8ef86-a50a-485b-b754-6699a0098657}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Quelldateien\resources">
+      <UniqueIdentifier>{b52d0b1f-f2be-4531-8b7a-2a1f4d461646}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Quelldateien\IOSExploit">
+      <UniqueIdentifier>{4a7cccb3-1f6a-44fd-9f71-239e91425649}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="src\main.h">
+      <Filter>Quelldateien</Filter>
+    </ClInclude>
+    <ClInclude Include="src\pygecko.h">
+      <Filter>Quelldateien</Filter>
+    </ClInclude>
+    <ClInclude Include="src\saviine.h">
+      <Filter>Quelldateien</Filter>
+    </ClInclude>
+    <ClInclude Include="src\dynamic_libs\ax_functions.h">
+      <Filter>Quelldateien\dynamic_libs</Filter>
+    </ClInclude>
+    <ClInclude Include="src\dynamic_libs\aoc_functions.h">
+      <Filter>Quelldateien\dynamic_libs</Filter>
+    </ClInclude>
+    <ClInclude Include="src\fs\CFile.hpp">
+      <Filter>Quelldateien\fs</Filter>
+    </ClInclude>
+    <ClInclude Include="src\common\common.h">
+      <Filter>Quelldateien\common</Filter>
+    </ClInclude>
+    <ClInclude Include="src\fs\DirList.h">
+      <Filter>Quelldateien\fs</Filter>
+    </ClInclude>
+    <ClInclude Include="src\system\exception_handler.h">
+      <Filter>Quelldateien\System</Filter>
+    </ClInclude>
+    <ClInclude Include="src\common\fs_defs.h">
+      <Filter>Quelldateien\common</Filter>
+    </ClInclude>
+    <ClInclude Include="src\fs\fs_utils.h">
+      <Filter>Quelldateien\fs</Filter>
+    </ClInclude>
+    <ClInclude Include="src\patcher\function_hooks.h">
+      <Filter>Quelldateien\Patcher</Filter>
+    </ClInclude>
+    <ClInclude Include="src\dynamic_libs\gx2_functions.h">
+      <Filter>Quelldateien\dynamic_libs</Filter>
+    </ClInclude>
+    <ClInclude Include="src\common\kernel_defs.h">
+      <Filter>Quelldateien\common</Filter>
+    </ClInclude>
+    <ClInclude Include="src\common\loader_defs.h">
+      <Filter>Quelldateien\common</Filter>
+    </ClInclude>
+    <ClInclude Include="src\utils\logger.h">
+      <Filter>Quelldateien\Utils</Filter>
+    </ClInclude>
+    <ClInclude Include="src\game\memory_area_table.h">
+      <Filter>Quelldateien\Game</Filter>
+    </ClInclude>
+    <ClInclude Include="src\game\rpx_rpl_table.h">
+      <Filter>Quelldateien\Game</Filter>
+    </ClInclude>
+    <ClInclude Include="src\utils\net.h">
+      <Filter>Quelldateien\Utils</Filter>
+    </ClInclude>
+    <ClInclude Include="src\utils\StringTools.h">
+      <Filter>Quelldateien\Utils</Filter>
+    </ClInclude>
+    <ClInclude Include="src\utils\utils.h">
+      <Filter>Quelldateien\Utils</Filter>
+    </ClInclude>
+    <ClInclude Include="src\system\memory.h">
+      <Filter>Quelldateien\System</Filter>
+    </ClInclude>
+    <ClInclude Include="src\common\os_defs.h">
+      <Filter>Quelldateien\common</Filter>
+    </ClInclude>
+    <ClInclude Include="src\common\thread_defs.h">
+      <Filter>Quelldateien\common</Filter>
+    </ClInclude>
+    <ClInclude Include="src\common\types.h">
+      <Filter>Quelldateien\common</Filter>
+    </ClInclude>
+    <ClInclude Include="src\dynamic_libs\gx2_types.h">
+      <Filter>Quelldateien\dynamic_libs</Filter>
+    </ClInclude>
+    <ClInclude Include="src\dynamic_libs\os_functions.h">
+      <Filter>Quelldateien\dynamic_libs</Filter>
+    </ClInclude>
+    <ClInclude Include="src\dynamic_libs\padscore_functions.h">
+      <Filter>Quelldateien\dynamic_libs</Filter>
+    </ClInclude>
+    <ClInclude Include="src\dynamic_libs\socket_functions.h">
+      <Filter>Quelldateien\dynamic_libs</Filter>
+    </ClInclude>
+    <ClInclude Include="src\dynamic_libs\vpad_functions.h">
+      <Filter>Quelldateien\dynamic_libs</Filter>
+    </ClInclude>
+    <ClInclude Include="src\dynamic_libs\sys_functions.h">
+      <Filter>Quelldateien\dynamic_libs</Filter>
+    </ClInclude>
+    <ClInclude Include="src\dynamic_libs\acp_functions.h">
+      <Filter>Quelldateien\dynamic_libs</Filter>
+    </ClInclude>
+    <ClInclude Include="src\dynamic_libs\curl_functions.h">
+      <Filter>Quelldateien\dynamic_libs</Filter>
+    </ClInclude>
+    <ClInclude Include="src\dynamic_libs\fs_functions.h">
+      <Filter>Quelldateien\dynamic_libs</Filter>
+    </ClInclude>
+    <ClInclude Include="src\fs\sd_fat_devoptab.h">
+      <Filter>Quelldateien\fs</Filter>
+    </ClInclude>
+    <ClInclude Include="src\patcher\fs_logger.h">
+      <Filter>Quelldateien\Patcher</Filter>
+    </ClInclude>
+    <ClInclude Include="src\kernel\kernel_functions.h">
+      <Filter>Quelldateien\Kernel</Filter>
+    </ClInclude>
+    <ClInclude Include="src\kernel\syscalls.h">
+      <Filter>Quelldateien\Kernel</Filter>
+    </ClInclude>
+    <ClInclude Include="src\resources\filelist.h">
+      <Filter>Quelldateien\resources</Filter>
+    </ClInclude>
+    <ClInclude Include="src\resources\Resources.h">
+      <Filter>Quelldateien\resources</Filter>
+    </ClInclude>
+    <ClInclude Include="src\common\game_defs.h">
+      <Filter>Quelldateien\common</Filter>
+    </ClInclude>
+    <ClInclude Include="src\cfw_config.h">
+      <Filter>Quelldateien\IOSExploit</Filter>
+    </ClInclude>
+    <ClInclude Include="src\ios_exploit.h">
+      <Filter>Quelldateien\IOSExploit</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="src\entry.c">
+      <Filter>Quelldateien</Filter>
+    </ClCompile>
+    <ClCompile Include="src\main.c">
+      <Filter>Quelldateien</Filter>
+    </ClCompile>
+    <ClCompile Include="src\pygecko.c">
+      <Filter>Quelldateien</Filter>
+    </ClCompile>
+    <ClCompile Include="src\saviine.c">
+      <Filter>Quelldateien</Filter>
+    </ClCompile>
+    <ClCompile Include="src\dynamic_libs\aoc_functions.c">
+      <Filter>Quelldateien\dynamic_libs</Filter>
+    </ClCompile>
+    <ClCompile Include="src\dynamic_libs\ax_functions.c">
+      <Filter>Quelldateien\dynamic_libs</Filter>
+    </ClCompile>
+    <ClCompile Include="src\fs\CFile.cpp">
+      <Filter>Quelldateien\fs</Filter>
+    </ClCompile>
+    <ClCompile Include="src\fs\DirList.cpp">
+      <Filter>Quelldateien\fs</Filter>
+    </ClCompile>
+    <ClCompile Include="src\system\exception_handler.c">
+      <Filter>Quelldateien\System</Filter>
+    </ClCompile>
+    <ClCompile Include="src\fs\fs_utils.c">
+      <Filter>Quelldateien\fs</Filter>
+    </ClCompile>
+    <ClCompile Include="src\dynamic_libs\gx2_functions.c">
+      <Filter>Quelldateien\dynamic_libs</Filter>
+    </ClCompile>
+    <ClCompile Include="src\utils\logger.c">
+      <Filter>Quelldateien\Utils</Filter>
+    </ClCompile>
+    <ClCompile Include="src\game\memory_area_table.c">
+      <Filter>Quelldateien\Game</Filter>
+    </ClCompile>
+    <ClCompile Include="src\game\rpx_rpl_table.c">
+      <Filter>Quelldateien\Game</Filter>
+    </ClCompile>
+    <ClCompile Include="src\utils\net.c">
+      <Filter>Quelldateien\Utils</Filter>
+    </ClCompile>
+    <ClCompile Include="src\utils\StringTools.cpp">
+      <Filter>Quelldateien\Utils</Filter>
+    </ClCompile>
+    <ClCompile Include="src\utils\utils.c">
+      <Filter>Quelldateien\Utils</Filter>
+    </ClCompile>
+    <ClCompile Include="src\system\memory.c">
+      <Filter>Quelldateien\System</Filter>
+    </ClCompile>
+    <ClCompile Include="src\dynamic_libs\os_functions.c">
+      <Filter>Quelldateien\dynamic_libs</Filter>
+    </ClCompile>
+    <ClCompile Include="src\dynamic_libs\padscore_functions.c">
+      <Filter>Quelldateien\dynamic_libs</Filter>
+    </ClCompile>
+    <ClCompile Include="src\dynamic_libs\socket_functions.c">
+      <Filter>Quelldateien\dynamic_libs</Filter>
+    </ClCompile>
+    <ClCompile Include="src\dynamic_libs\sys_functions.c">
+      <Filter>Quelldateien\dynamic_libs</Filter>
+    </ClCompile>
+    <ClCompile Include="src\dynamic_libs\acp_functions.c">
+      <Filter>Quelldateien\dynamic_libs</Filter>
+    </ClCompile>
+    <ClCompile Include="src\dynamic_libs\curl_functions.c">
+      <Filter>Quelldateien\dynamic_libs</Filter>
+    </ClCompile>
+    <ClCompile Include="src\dynamic_libs\fs_functions.c">
+      <Filter>Quelldateien\dynamic_libs</Filter>
+    </ClCompile>
+    <ClCompile Include="src\fs\sd_fat_devoptab.c">
+      <Filter>Quelldateien\fs</Filter>
+    </ClCompile>
+    <ClCompile Include="src\patcher\fs_logger.c">
+      <Filter>Quelldateien\Patcher</Filter>
+    </ClCompile>
+    <ClCompile Include="src\patcher\function_hooks.cpp">
+      <Filter>Quelldateien\Patcher</Filter>
+    </ClCompile>
+    <ClCompile Include="src\kernel\kernel_functions.c">
+      <Filter>Quelldateien\Kernel</Filter>
+    </ClCompile>
+    <ClCompile Include="src\kernel\syscalls.c">
+      <Filter>Quelldateien\Kernel</Filter>
+    </ClCompile>
+    <ClCompile Include="src\resources\Resources.cpp">
+      <Filter>Quelldateien\resources</Filter>
+    </ClCompile>
+    <ClCompile Include="src\dynamic_libs\vpad_functions.c">
+      <Filter>Quelldateien\dynamic_libs</Filter>
+    </ClCompile>
+    <ClCompile Include="src\cfw_config.c">
+      <Filter>Quelldateien\IOSExploit</Filter>
+    </ClCompile>
+    <ClCompile Include="src\ios_exploit.c">
+      <Filter>Quelldateien\IOSExploit</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="src\link.ld">
+      <Filter>Quelldateien</Filter>
+    </None>
+  </ItemGroup>
+</Project>

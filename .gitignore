@@ -1,0 +1,18 @@
+/build
+/*.elf
+/*.db
+/*.suo
+/Debug
+/Install/PC App
+/Install
+/meta/tcpgecko.elf
+/meta/Thumbs.db
+/TCPGecko.VC.VC.opendb
+/TCPGecko.sdf
+/x64/Debug/TCPGecko.tlog
+/x64
+/.vs/TCPGecko/v14/.suo
+/BetaQuest.VC.VC.opendb
+/Bla
+*.js
+*.zip
